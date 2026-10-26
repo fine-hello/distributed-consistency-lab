@@ -1,0 +1,6 @@
+scenario,mode,seed,min_delay_ms,max_delay_ms,drop_rate,converged,elapsed_ms,messages,dropped,repair_rounds
+delay,version,42,50,200,0.000,true,152,4,0,0
+conflict,arrival,42,50,200,0.000,false,152,4,0,0
+conflict,version,42,50,200,0.000,true,152,4,0,0
+loss_no_repair,version,42,50,200,0.300,true,137,2,0,0
+loss_with_repair,version,42,50,200,0.300,true,137,2,0,0
